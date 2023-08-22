@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<x-container class="container py-4">
     <div class="row justify-content-center">
       <div class="col-md-12 d-flex justify-content">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
